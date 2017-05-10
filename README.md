@@ -12,3 +12,8 @@ Algorithm prompts found on the Internet
 	 - to find out the first non-repeated character of the string
 	 - utilized a frequency object to store frequency
 	 - May 10, 2017
+3. BubbleSort
+	 - input: array, output: array
+	 - to sort an unsorted array without using .sort(), using bubbles to swap values of indeces
+	 - utilized inner function for sorting, and optimized indeces to check if sorting is necessary
+	 - May 10, 2017
