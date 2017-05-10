@@ -1,4 +1,4 @@
-# algorithmy
+# algorithm
 Algorithm prompts found on the Internet
 
 # Updated prompts
