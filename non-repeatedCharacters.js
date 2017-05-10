@@ -18,19 +18,14 @@ var firstNonRepeatedCharacter = function(string) {
       frequency[string[i]]++;
     }
   }
-
-  var frequency1characters = [];
   for (var key in frequency) {
     if (frequency[key] === 1) {
-      frequency1characters.push(key);
-    }
+      return key;
+    } 
   }
-
-  if (frequency1characters.length === 0) {
-    return null;
-  } else {
-    return frequency1characters[0];
-  }
+  return null;
 };
 
 console.log(firstNonRepeatedCharacter('ABC'));
+
+
