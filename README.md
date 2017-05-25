@@ -17,3 +17,8 @@ Algorithm prompts found on the Internet
 	 - to sort an unsorted array without using .sort(), using bubbles to swap values of indeces
 	 - utilized inner function for sorting, and optimized indeces to check if sorting is necessary
 	 - May 10, 2017
+4. kthToLastNode
+   - input: headnode, output: value
+   - to find kth last node of singly linked list
+   - utilized an object to cache found node values, to index the kth last element
+   - May 25, 2017
